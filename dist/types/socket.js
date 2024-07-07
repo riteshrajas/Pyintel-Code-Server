@@ -1,0 +1,25 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MessageEvent = void 0;
+var MessageEvent;
+(function (MessageEvent) {
+    MessageEvent["JOIN_REQUEST"] = "join-request";
+    MessageEvent["JOIN_ACCEPTED"] = "join-accepted";
+    MessageEvent["USER_JOINED"] = "user-joined";
+    MessageEvent["USER_DISCONNECTED"] = "user-disconnected";
+    MessageEvent["SYNC_FILES"] = "sync-files";
+    MessageEvent["FILE_CREATED"] = "file-created";
+    MessageEvent["FILE_UPDATED"] = "file-updated";
+    MessageEvent["FILE_RENAMED"] = "file-renamed";
+    MessageEvent["FILE_DELETED"] = "file-deleted";
+    MessageEvent["USER_OFFLINE"] = "offline";
+    MessageEvent["USER_ONLINE"] = "online";
+    MessageEvent["SEND_MESSAGE"] = "send-message";
+    MessageEvent["RECEIVE_MESSAGE"] = "receive-message";
+    MessageEvent["TYPING_START"] = "typing-start";
+    MessageEvent["TYPING_PAUSE"] = "typing-pause";
+    MessageEvent["USERNAME_EXISTS"] = "username-exists";
+    MessageEvent["REQUEST_DRAWING"] = "request-drawing";
+    MessageEvent["SYNC_DRAWING"] = "sync-drawing";
+    MessageEvent["DRAWING_UPDATE"] = "drawing-update";
+})(MessageEvent || (exports.MessageEvent = MessageEvent = {}));
